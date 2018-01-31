@@ -3,6 +3,7 @@
 ## Overview
 
 * [My Awesome API](README.md)
+* [Terminology](terminology.md)
 
 ## Methods
 
@@ -10,5 +11,6 @@
 
 ## MVC
 
-* [MVC Explained](mvc/getting-started.md)
+* MVC Overview
+  * [MVC Explained](mvc/da.md)
 

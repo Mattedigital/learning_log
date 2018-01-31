@@ -1,7 +1,5 @@
 # MVC Explained {#mvc}
 
-
-
 #### The MVC Pattern
 
 **Model:** Structures your data in a reliable form and prepares it based on controller’s instructions
@@ -9,8 +7,6 @@
 **View:** Displays data to user in easy-to-understand format, based on the user’s actions
 
 **Controller:** Takes in user commands, sends commands to the model for data updates, sends instructions to view to update interface.
-
-
 
 ![](/assets/MVC_visual copy.png)
 
@@ -35,8 +31,6 @@ When the bartender’s brain \(the **controller**\) hears the word “Old Fashio
 
 The final product is the drink \(the **view**\), which you \(the **user**\) consume.
 
-
-
 #### Consideration points
 
 Want another drink? Shouting at an empty glass \(the **view**\) will do nothing. You need to speak to the barman  \(the **controller**\).
@@ -44,8 +38,6 @@ Want another drink? Shouting at an empty glass \(the **view**\) will do nothing.
 The time spent between the bartender hearing your request and starting to create the drink should be absolutely minimal. This is sometimes known as a “skinny controller”- in other words, the controller should contain a minimal amount of logic, and delegate as much as possible to the model.
 
 You want to keep as much of your logic within the model as possible as opposed to within the view. i.e. making the drinks behind the bar is preferable to mixing it within the customer’s mouth.
-
-
 
 #### Tying this into web development {#tying-into-webdevelope}
 
