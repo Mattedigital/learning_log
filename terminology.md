@@ -14,9 +14,9 @@ Atomic design is methodology for creating design systems. There are five distinc
 * **Templates** - Templates consist mostly of groups of organisms stitched together to form pages. It’s here where we start to see the design coming together and start seeing things like layout in action.
 * **Pages** - Pages are specific instances of templates. Here, placeholder content is replaced with real representative content to give an accurate depiction of what a user will ultimately see.
 
-Also see BEM as an extension of these principles in code.
+See BEM to see examples of how these principles can be implemented in code.
 
-[tag](../styles/bem.md)
+
 
 ---
 
@@ -47,7 +47,7 @@ menu item, list item, checkbox caption, header title
 disabled, highlighted, checked, fixed, size big, color yellow
 ```
 
-See the styles section on BEM for examples and greater detail.
+See the styles section on [BEM](/styles/bem.md "Link to BEM section") for greater detail and code examples.
 
 
 
@@ -74,6 +74,12 @@ MVC is an acronym for Model, View, Controller. A software architectural pattern 
 ---
 
 #### CSS
+
+Model
+
+View
+
+Controller
 
 #### Sass
 
