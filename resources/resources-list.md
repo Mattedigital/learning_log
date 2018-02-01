@@ -1,9 +1,17 @@
-####Code####
+#### Code Snippets
 
-####Design####
+* [JS Code Snippets](https://github.com/Chalarangelo/30-seconds-of-code#array-concatenation)
 
-####Chrome Extensions####
+#### Design
 
-####Learning####
+#### Chrome Extensions
 
-####Inspiration####
+#### Learning
+
+* [Egghead](https://www.egghead.io)
+* [CodeAcademy](https://www.codecademy.com/)
+
+#### Inspiration
+
+
+
