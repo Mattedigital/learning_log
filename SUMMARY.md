@@ -18,5 +18,6 @@
 ## Resources
 
 * [Resources List](resources/resources-list.md)
+* [Useful Code Snippets](resources/useful-code-snippets.md)
 * [Sublime Plugins List](resources/sublime-plugins-list.md)
 
