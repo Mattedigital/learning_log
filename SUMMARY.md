@@ -15,3 +15,7 @@
 
 * [BEM](styles/bem.md)
 
+## Resources
+
+* [Resources List](resources/resources-list.md)
+
