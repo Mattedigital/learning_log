@@ -4,7 +4,7 @@
 
 #### Purpose:
 
-This document acts as a single source of notes, code snippets, resources and things learnt throughout my career as a designer and front-end developer.
+This document acts as a single source of notes, code snippets, resources and things learnt throughout my career as front-end developer.
 
 #### Contents:
 
