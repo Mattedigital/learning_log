@@ -65,7 +65,7 @@ The model is a projection of your data and has to do with what your application 
 
 #### MVC
 
-MVC is an acronym for Model, View, Controller. A software architectural pattern commonly used for developing user interfaces. In effect it allows for separation of concerns by delegating specific task to the M, V or C. See [Model](#Model) , [View](#View), [Controller](#Controller) separately or see [MVC Explained](/mvc/da.md "Go to MVC Explained") for greater detail.
+MVC is an acronym for Model, View, Controller. A software architectural pattern commonly used for developing user interfaces. In effect it allows for separation of concerns by delegating specific task to the M, V or C. See [Model](#model) , [View](#view), [Controller](#controller) separately or see [MVC Explained](/mvc/da.md "Go to MVC Explained") for greater detail.
 
 ---
 
