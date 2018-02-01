@@ -57,7 +57,7 @@ CRUD is an acronym for Create, Read, Update, Delete. A basic example being a tod
 
 ---
 
-#### Model {#terminology-model}
+#### Model
 
 The model is a projection of your data and has to do with what your application "IS". Any code dealing with direct persistence to the database is considered the Model. Keep your business logic out of the database and UI, instead keep most logic here,  within the Model.
 
@@ -65,7 +65,7 @@ The model is a projection of your data and has to do with what your application 
 
 #### MVC
 
-MVC is an acronym for Model, View, Controller. A software architectural pattern commonly used for developing user interfaces. In effect it allows for separation of concerns by delegating specific task to the M, V or C. See [Model](#model) , [View](#view), [Controller](#controller) separately or see [MVC Explained](/mvc/mvc_overview.md "Go to MVC Explained") for greater detail.
+MVC is an acronym for Model, View, Controller. A software architectural pattern commonly used for developing user interfaces. In effect it allows for separation of concerns by delegating specific task to the M, V or C. See [Model](#model), [View](#view), [Controller](#controller) separately or see [MVC Explained](/mvc/mvc_overview.md "Go to MVC Explained") for greater detail.
 
 ---
 

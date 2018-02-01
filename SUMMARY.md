@@ -4,9 +4,6 @@
 
 * [Welcome](README.md)
 * [Terminology](terminology.md)
-
-## Methods
-
 * [Defining Methods](methods.md)
 
 ## MVC
