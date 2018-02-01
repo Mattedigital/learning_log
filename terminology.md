@@ -2,8 +2,6 @@
 
 ---
 
-#### 
-
 #### Atomic Design
 
 Atomic design is methodology for creating design systems. There are five distinct levels in atomic design:
@@ -16,11 +14,7 @@ Atomic design is methodology for creating design systems. There are five distinc
 
 See BEM to see examples of how these principles can be implemented in code.
 
-
-
 ---
-
-#### 
 
 #### BEM
 
@@ -49,37 +43,41 @@ disabled, highlighted, checked, fixed, size big, color yellow
 
 See the styles section on [BEM](/styles/bem.md "Link to BEM section") for greater detail and code examples.
 
-
-
 ---
 
-#### 
+#### Controller
+
+The controller is what your application "does", it is the glue that binds the model and view together \(yet also acts as the insulation that keeps them apart \(separation of concerns\)\). The controller acts like a two-way adapter, translating user actions from the view into messages to the model and configuring the view with data from the model.
+
+---
 
 #### CRUD
 
 CRUD is an acronym for Create, Read, Update, Delete. A basic example being a todo app where you can add, view, edit & delete todo list items. Often refers to back-end storage solutions.
 
+---
 
+#### Model {#terminology-model}
+
+The model is a projection of your data and has to do with what your application "IS". Any code dealing with direct persistence to the database is considered the Model. Keep your business logic out of the database and UI, instead keep most logic here,  within the Model.
+
+---
+
+#### MVC
+
+MVC is an acronym for Model, View, Controller. A software architectural pattern commonly used for developing user interfaces. In effect it allows for separation of concerns by delegating specific task to the M, V or C. See [Model](#Model) , [View](#View), [Controller](#Controller) separately or see [MVC Explained](/mvc/da.md "Go to MVC Explained") for greater detail.
+
+---
+
+#### View
+
+The view visualises the state of the model, an example being a webpage, something the user can visually consume.
 
 ---
 
 #### 
 
-#### MVC
-
-MVC is an acronym for Model, View, Controller. A software architectural pattern commonly used for developing user interfaces. See MVC Overview for greater detail.
-
-
-
----
-
 #### CSS
-
-Model
-
-View
-
-Controller
 
 #### Sass
 

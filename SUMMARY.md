@@ -11,8 +11,8 @@
 
 ## MVC
 
-* [MVC Overview](mvc/mvc-overview.md)
-  * [MVC Explained](mvc/da.md)
+* [Overview](mvc/mvc-overview.md)
+* [MVC Explained](mvc/da.md)
 
 ## Styles
 
