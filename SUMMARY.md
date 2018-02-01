@@ -18,4 +18,5 @@
 ## Resources
 
 * [Resources List](resources/resources-list.md)
+* [Sublime Plugins List](resources/sublime-plugins-list.md)
 
