@@ -2,7 +2,7 @@
 
 ## Overview
 
-* [My Awesome API](README.md)
+* [Welcome](README.md)
 * [Terminology](terminology.md)
 
 ## Methods
