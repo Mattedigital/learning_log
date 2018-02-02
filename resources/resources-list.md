@@ -1,6 +1,7 @@
 #### Code Snippets
 
 * [JS Code Snippets](https://github.com/Chalarangelo/30-seconds-of-code#array-concatenation)
+* [Mark Down Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) \(usefull for README.md\)
 
 #### Helpers
 

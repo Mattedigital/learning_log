@@ -1,5 +1,13 @@
 # Terminology
 
+
+
+https://semantic-ui.com/introduction/glossary.html
+
+
+
+
+
 ---
 
 #### Atomic Design
