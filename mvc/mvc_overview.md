@@ -2,11 +2,13 @@
 
 #### The MVC Pattern
 
-**Model:** Structures your data in a reliable form and prepares it based on controller’s instructions
+**Model:** Structures your data in a reliable form and prepares it based on controller’s instructions. Domain Logic should go here \(An example of domain logic: in an accounting application domain rules would be rules regarding accounts, postings & taxation. The data as such.\)
 
 **View:** Displays data to user in easy-to-understand format, based on the user’s actions
 
-**Controller:** Takes in user commands, sends commands to the model for data updates, sends instructions to view to update interface.
+**Controller:** Takes in user commands, sends commands to the model for data updates, sends instructions to view to update interface. Application logic should go here \(An example of application logic: continuing with the Models accounting application example - CSV import/export could be relevant, but the rules of CSV import/export has nothing to do with the actual domain. This kind of logic is application logic.\)
+
+
 
 ![](/assets/MVC_visual copy.png)
 
@@ -50,3 +52,4 @@ The model carries out the logic, pulls from a database and sends back a consiste
 The controller then passes this data to the view to update the user interface.
 
 _All credit should go to the original article found here: _[_https://medium.freecodecamp.org/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053_](https://medium.freecodecamp.org/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053)
+
