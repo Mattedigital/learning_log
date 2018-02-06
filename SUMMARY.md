@@ -21,4 +21,5 @@
 * [Useful Code Snippets](resources/useful-code-snippets.md)
 * [Basic Tips](resources/basic-tips.md)
 * [Sublime Plugins List](resources/sublime-plugins-list.md)
+* [Laws of UX](resources/laws-of-ux.md)
 

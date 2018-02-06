@@ -17,6 +17,7 @@ An alias can be made temporarily \(just for the use of one terminal session\) or
 5. Below that, paste the following:`alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'`
 
 6. Press ctrl + O and hit return to save the file
+
 7. Press ctrl + X to exit the file and return to the command line
 8. In Terminal, paste the following:
    `source ~/.bash_profile`
@@ -33,7 +34,6 @@ If you want to modify the behaviour or alias names, let’s take a closer look a
 ```
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES;
 killall Finder /System/Library/CoreServices/Finder.app'
-
 ```
 
 `alias`tells Terminal we’re adding a new alias.
@@ -44,15 +44,31 @@ We then give the alias two commands. The first being:
 
 ```
 defaults write com.apple.finder AppleShowAllFiles YES;
-
 ```
 
 This is the command to show hidden files and is ended with a semi-colon`;`so we can then use the second command:
 
 ```
 killall Finder /System/Library/CoreServices/Finder.app
-
 ```
 
 This will relaunch the Finder \(to replicate the step of holding the ‘Option/alt’ key then right clicking the Finder icon in the dock\).
+
+
+
+
+
+# Terminal Commands
+
+npm - where am I
+
+cd - change directory
+
+mkdir - Make directory
+
+rm - remove
+
+sudo - overriding admin command
+
+
 
