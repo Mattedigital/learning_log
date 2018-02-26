@@ -1,3 +1,7 @@
+# Altering the DOM
+
+---
+
 #### Query Selector
 
 Selects single element. If many it will select the 1st element found.
