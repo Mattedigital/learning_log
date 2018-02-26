@@ -34,7 +34,7 @@ function callback (e) {
 }
 ```
 
-#### [List of common event types](https://developer.mozilla.org/en-US/docs/Web/Events)
+##### [List of common event types](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 #### Removing event listeners
 
@@ -49,6 +49,89 @@ function callback () {
 ```
 
 When you remove an event listener you no longer listen to the event. Int he above code the callback only triggers when `.thing` gets clicked for the 1st time. Further clicks will not trigger the callback. To free up resources always remove listeners when you have no further need for them.
+
+#### Adding & removing classes
+
+Add a class
+
+```js
+element.classList.add('classname')
+```
+
+Remove a class
+
+```js
+element.classList.remove('classname')
+```
+
+Check if class exists
+
+```js
+element.classList.contains('classname')
+```
+
+#### Adding, changing & removing attributes
+
+Get an attribute
+
+```js
+element.getAttribute('attribute-name')
+```
+
+Change / Set an attribute
+
+```js
+element.getAttribute('attribute-name', 'attribute-value')
+```
+
+Remove an attribute
+
+```js
+removeAttribute('attribute-name')
+```
+
+#### Adding elements to the DOM
+
+Create an element
+
+```js
+let li = document.createElement('li')
+```
+
+Add content to this new element
+
+```js
+li.innerHTML = 'Hello again, world!'
+```
+
+Add element to the DOM
+
+```js
+let ul = document.querySelector('ul')
+ul.append(li)
+```
+
+#### Removing elements from the DOM
+
+General example \(can't do this as no way of clarifying which child is being removed\)
+
+```js
+let parent = document.querySelector('.parent')
+let elToRemove = document.querySelector('.element-to-remove')
+parent.removeChild(elToRemove)
+```
+
+Example of removing 1st child
+
+```js
+let list = document.querySelector('ul')
+removeFirst.addEventListener('click', e => {
+  if (list.children.length) {
+    let firstNode = list.children[0]
+    list.removeChild(firstNode)
+  }
+})
+```
 
 
 
