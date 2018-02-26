@@ -6,12 +6,13 @@
 * [Terminology](terminology.md)
 * [Defining Methods](methods.md)
 
-## MVC
+## JS
 
 * [Overview](mvc/mvc-overview.md)
 * [MVC Explained](mvc/mvc_overview.md)
+* [Altering the DOM](mvc/altering-the-dom.md)
 
-## Styles
+## CSS
 
 * [BEM](styles/bem.md)
 
