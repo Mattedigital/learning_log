@@ -1,7 +1,5 @@
 Gotchas
 
-
-
 Easiest / Less frustrating approach:
 
 1. Create folder structure.
@@ -35,7 +33,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 {match.url} is only needed for nested routes ie /tacos/chicken & tacos/beef \(where beef & chicken are nested\). not needed if not nested ie /beef, /chicken.
 
 ```js
-<Route path={`${match.url}/:userId`} component={GalleryItemView} />
+<Route path={`${match.url}/:id`} component={GalleryItemView} />
 ```
 
 
