@@ -10,6 +10,8 @@ Further reading on the mental model required to build React apps with ease - [ht
 
 Read on Sippers & Loading UI for pending API calls - [https://www.robinwieruch.de/react-fetching-data/](https://www.robinwieruch.de/react-fetching-data/)
 
+API fetched data should always be in the most parent component. In the example of boilerplate-react if all children require data then the API fetch must happen in App.jsx and passed down to children via props.
+
 Example Routes in App.js:
 
 ```js
