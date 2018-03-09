@@ -6,7 +6,9 @@ Easiest / Less frustrating approach:
 2. Then create routes.
 3. Then build the individual components.
 
-Further reading on the mental model required to build React apps with ease - https://reactjs.org/docs/thinking-in-react.html
+Further reading on the mental model required to build React apps with ease - [https://reactjs.org/docs/thinking-in-react.html](https://reactjs.org/docs/thinking-in-react.html)
+
+Read on Sippers & Loading UI for pending API calls - [https://www.robinwieruch.de/react-fetching-data/](https://www.robinwieruch.de/react-fetching-data/)
 
 Example Routes in App.js:
 
