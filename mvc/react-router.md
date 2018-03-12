@@ -1,4 +1,4 @@
-Gotchas
+Gotchas:
 
 Easiest / Less frustrating approach:
 
