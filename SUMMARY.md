@@ -12,6 +12,7 @@
 * [MVC Explained](mvc/mvc_overview.md)
 * [Altering the DOM](mvc/altering-the-dom.md)
 * [React Router](mvc/react-router.md)
+* [API's](mvc/apis.md)
 
 ## CSS
 
