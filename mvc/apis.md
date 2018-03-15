@@ -25,7 +25,7 @@ navigator.vibrate([1000, 1000, 2000]);
 
 Vibration can be stopped by passing a `0` or an empty array `[]` to the vibrate method.
 
-
+---
 
 #### High Resolution Timing API
 
@@ -50,7 +50,7 @@ console.log(`Do something took ${end - start} milliseconds`);
 
 We could also use this for precise timing in game, animation or audio logic.
 
-
+---
 
 #### Permission API
 
@@ -79,7 +79,7 @@ Requesting permission from the user is still dependant on the specific API.
 
 Currently only available in **Chrome**.
 
-
+---
 
 #### Notifications API
 
@@ -120,14 +120,34 @@ let options = {
     icon: anImage,
     body: someText
 }
-let n = new Notification(title, options)
+let n = new Notification(title, options);
 ```
 
-#### 
+---
 
-#### 
+#### **Page Visibility API**
 
-#### 
+The **Page Visibility API **allows you to query whether a page is visible or in focus.
+
+Use Case: It is common for users to have multiple pages and tabs option at once. The information provided by the visibility API could be used to trigger an action such as starting an animation or stopping network requests to save resources.
+
+When the user moves to another tab or minimises the webpage the API sends a `visibilityChange` event.
+
+Not the naming of this event and hidden property differs across browsers.
+
+Detecting changes:
+
+```js
+document.addEventListener('visibilitychange', function(){
+    if(document.hidden){
+        console.log('hidden');
+    }else{
+        console.log('shown');
+    }
+}, false);
+```
+
+---
 
 #### Warn user if Back button is pressed
 
