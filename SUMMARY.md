@@ -11,6 +11,7 @@
 * [Overview](mvc/mvc-overview.md)
 * [MVC Explained](mvc/mvc_overview.md)
 * [Altering the DOM](mvc/altering-the-dom.md)
+* [React](mvc/react.md)
 * [React Router](mvc/react-router.md)
 * [API's](mvc/apis.md)
 
