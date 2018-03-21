@@ -14,6 +14,7 @@
 * [React](mvc/react.md)
 * [React Router](mvc/react-router.md)
 * [API's](mvc/apis.md)
+* [JS Snippets](mvc/js-snippets.md)
 
 ## CSS
 
