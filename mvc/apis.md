@@ -1,3 +1,7 @@
+\(See bottom of file for list of open API's for tinkering/learning/projects\)
+
+## Browser API's
+
 #### Vibration API
 
 The **Vibration API** makes a device vibrate with JS. It's intended to be used on mobile devices to provide additional feedback.
@@ -162,4 +166,26 @@ window.onbeforeunload = function() {
 ```
 
 `onbeforeunload` event handler property contains the code executed when the `beforeunload` is sent. This event fires when a window is about to unload its resources. The document is still visible and the event is still cancelable.
+
+
+
+
+
+
+
+---
+
+**Design Quotes** - http://quotesondesign.com/api-v4-0/
+
+**Weather** - http://openweathermap.org/api
+
+**Flickr **- https://api.flickr.com/services/feeds/photos\_public.gne?tags=yellow&tagmode=all&format=json&nojsoncallback=?
+
+\(https://www.flickr.com/services/feeds/docs/photos\_public/\)
+
+**Movies** - http://www.omdbapi.com/
+
+**Movies** - https://www.themoviedb.org/documentation/api
+
+**Cinemas** - http://www.cinelist.co.uk/
 
