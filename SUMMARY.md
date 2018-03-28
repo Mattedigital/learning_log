@@ -19,6 +19,8 @@
 ## Setup / Tools
 
 * [Start from scratch](setup-tools/start-from-scratch.md)
+* [Git commands](setup-tools/git-commands.md)
+* [Terminal commands](setup-tools/terminal-commands.md)
 
 ## CSS
 
