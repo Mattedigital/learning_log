@@ -6,7 +6,7 @@
 
 **Terminal** - edit to your visual preferences
 
-**Set alias for showFiles & hideFiles** - [https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/](https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/)
+**Set alias for showFiles & hideFiles** - see resources -&gt; useful code snippets
 
 **Chrome Extensions:**
 
