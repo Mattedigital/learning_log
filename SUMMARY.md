@@ -16,6 +16,10 @@
 * [API's](mvc/apis.md)
 * [JS Snippets](mvc/js-snippets.md)
 
+## Setup / Tools
+
+* [Start from scratch](setup-tools/start-from-scratch.md)
+
 ## CSS
 
 * [BEM](styles/bem.md)
