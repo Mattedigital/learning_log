@@ -19,6 +19,7 @@ An alias can be made temporarily \(just for the use of one terminal session\) or
 6. Press ctrl + O and hit return to save the file
 
 7. Press ctrl + X to exit the file and return to the command line
+
 8. In Terminal, paste the following:
    `source ~/.bash_profile`
    to refresh your profile and make the aliases available
@@ -54,21 +55,49 @@ killall Finder /System/Library/CoreServices/Finder.app
 
 This will relaunch the Finder \(to replicate the step of holding the ‘Option/alt’ key then right clicking the Finder icon in the dock\).
 
-
-
-
-
 # Terminal Commands
 
-npm - where am I
+`pwd` - where am I
 
-cd - change directory
+`cd` - change directory
 
-mkdir - Make directory
+`mkdir` - Make directory
 
-rm - remove
+`rm` - remove
 
-sudo - overriding admin command
+`sudo` - overriding admin command
+
+# Git Commands
+
+Initiate git in directory \(cd to desired directory first\):
+
+```
+git init
+```
+
+Add remote repo:
+
+```
+git remote add origin https://github.com/user/repo.git
+```
+
+Stage all changes:
+
+```
+git add .
+```
+
+Commit changes:
+
+```
+git commit -m "commit message here"
+```
+
+Push changes
+
+```
+git push origin master
+```
 
 
 
