@@ -27,8 +27,10 @@ git commit -m "commit message here"
 Push changes
 
 ```
-git push origin master
+git push origin <branchname>
 ```
+
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
 
 
