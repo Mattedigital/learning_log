@@ -24,13 +24,11 @@ Commit changes:
 git commit -m "commit message here"
 ```
 
-Push changes
+Push changes:
 
 ```
 git push origin <branchname>
 ```
 
-https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
-
-
+[https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
 
