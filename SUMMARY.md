@@ -14,6 +14,8 @@
 * [React Router](mvc/react-router.md)
 * [API's](mvc/apis.md)
 * [JS Snippets](mvc/js-snippets.md)
+* [Objects](mvc/objects.md)
+* [Arrays](mvc/arrays.md)
 
 ## Setup / Tools
 

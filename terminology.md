@@ -1,12 +1,6 @@
 # Terminology
 
-
-
-https://semantic-ui.com/introduction/glossary.html
-
-
-
-
+[https://semantic-ui.com/introduction/glossary.html](https://semantic-ui.com/introduction/glossary.html)
 
 ---
 
@@ -65,6 +59,12 @@ CRUD is an acronym for Create, Read, Update, Delete. A basic example being a tod
 
 ---
 
+#### Method
+
+Objects can have their own functions. These are called methods.
+
+---
+
 #### Model
 
 The model is a projection of your data and has to do with what your application "IS". Any code dealing with direct persistence to the database is considered the Model. Keep your business logic out of the database and UI, instead keep most logic here,  within the Model.
@@ -77,13 +77,28 @@ MVC is an acronym for Model, View, Controller. A software architectural pattern 
 
 ---
 
+#### Object
+
+Objects are like variables but can contain many key value pairs:
+
+```js
+const bike = {
+    wheels: 2,
+    seats: 1,
+    doors: 0,
+    color: 'red',
+}
+```
+
+See the section on JS/Objects for a deeper insight into Objects.
+
+---
+
 #### View
 
 The view visualises the state of the model, an example being a webpage, something the user can visually consume.
 
 ---
-
-#### 
 
 #### CSS
 
