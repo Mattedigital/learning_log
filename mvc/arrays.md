@@ -45,7 +45,14 @@ You can also pass a starting point as a callback:
     }, 10
 );
 //returns 20 as it starts from 10.
+```
 
+##### Filter:
+
+The `filter` method is used to iterate through an array and filter out elements where a given condition is not true. Any array element for which the callback returns true will be kept and elements that return false will be filtered out.
+
+```js
+array.filter(val => val !== 5);
 ```
 
 
