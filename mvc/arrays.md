@@ -37,13 +37,12 @@ The above can be abbreviated to:
 // returns 10, same as above.
 ```
 
-You can also pass a starting point as a callback:
+You can also pass a initial value as a callback:
 
 ```js
 [0, 1, 2, 3, 4].reduce( (accumulator, currentValue) => {
     accumulator + currentValue 
-    }, 10
-);
+}, 10);
 //returns 20 as it starts from 10.
 ```
 
@@ -52,8 +51,14 @@ You can also pass a starting point as a callback:
 The `filter` method is used to iterate through an array and filter out elements where a given condition is not true. Any array element for which the callback returns true will be kept and elements that return false will be filtered out.
 
 ```js
-array.filter(val => val !== 5);
+const newArray = array.filter(val => val !== 5);
 ```
+
+##### Sort:
+
+You can use the method `sort` to easily sort the values in an array alphabetically or numerically. Unlike the previous array methods we have been looking at, `sort` actually alters the array in place.
+
+
 
 
 
