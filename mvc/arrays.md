@@ -58,7 +58,11 @@ const newArray = array.filter(val => val !== 5);
 
 You can use the method `sort` to easily sort the values in an array alphabetically or numerically. Unlike the previous array methods we have been looking at, `sort` actually alters the array in place.
 
+```js
+const newArray = array.sort((a, b) => a - b);
+```
 
+This works by iterating through the array taking a & b, if a - b is &lt; 0 then a goes before b. If a - b is &gt; 0 then b goes before a. If a - b is 0 then no difference and leave as is. The `sort` function then continues with the new a, b values.
 
 
 
