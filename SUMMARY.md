@@ -16,6 +16,7 @@
 * [JS Snippets](mvc/js-snippets.md)
 * [Objects](mvc/objects.md)
 * [Arrays](mvc/arrays.md)
+* [Functional Programming](mvc/functional-programming.md)
 
 ## Setup / Tools
 

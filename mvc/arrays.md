@@ -7,8 +7,7 @@ The `map` method is a convenient way to iterate through arrays.
 ```js
 const oldArray = [1, 2, 3];
 const timesFour = oldArray.map(val => val * 4);
-console.log(timesFour); // returns [4, 8, 12]
-console.log(oldArray);  // returns [1, 2, 3]
+// timesFour = [4, 8, 12]
 ```
 
 ##### Reduce:
@@ -51,7 +50,9 @@ You can also pass a initial value as a callback:
 The `filter` method is used to iterate through an array and filter out elements where a given condition is not true. Any array element for which the callback returns true will be kept and elements that return false will be filtered out.
 
 ```js
-const newArray = array.filter(val => val !== 5);
+const array = [1, 4, 12, 65];
+const newArray = array.filter(val => val > 5);
+// newArray = [12, 65];
 ```
 
 ##### Sort:
@@ -59,7 +60,9 @@ const newArray = array.filter(val => val !== 5);
 You can use the method `sort` to easily sort the values in an array alphabetically or numerically. Unlike the previous array methods we have been looking at, `sort` actually alters the array in place.
 
 ```js
+const array = [7, 3, 29, 98, 2];
 const newArray = array.sort((a, b) => a - b);
+// newArray = [2, 3, 7, 29, 98];
 ```
 
 This works by iterating through the array taking a & b, if a - b is &lt; 0 then a goes before b. If a - b is &gt; 0 then b goes before a. If a - b is 0 then no difference and leave as is. The `sort` function then continues with the new a, b values.
@@ -81,12 +84,14 @@ myArr.reverse()
 ```js
 const oldArray = [1, 2, 3];
 const newArray = oldArray.concat([4, 5, 6]);
+// newArray = [1, 2, 3, 4, 5, 6];
 ```
 
 & in es6 using the spread operator:
 
 ```js
 const newArray = [...oldArray, 4, 5, 6];
+// newArray = [1, 2, 3, 4, 5, 6];
 ```
 
 ##### Split:
@@ -96,6 +101,7 @@ Use the split method to split a string into an array. The value you pass the spl
 ```js
 const str = "Hello World";
 const strArr = str.split(' ');
+// strArr = ['Hello', 'World'];
 ```
 
 ##### Join:
