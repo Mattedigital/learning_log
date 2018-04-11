@@ -5,6 +5,10 @@
 * [Welcome](README.md)
 * [Terminology](terminology.md)
 
+## Workflow
+
+* [General](workflow/general.md)
+
 ## JS
 
 * [Overview](mvc/mvc-overview.md)
