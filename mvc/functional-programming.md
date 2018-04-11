@@ -1,6 +1,4 @@
-
-
-https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming
+[https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming)
 
 Use Pure functions.
 
@@ -25,7 +23,7 @@ function sum (numbers) {
 sum([0, 1, 2, 3, 4]); //10
 ```
 
-This is bad practise as we are changing the value of `i` on each loop, we want such variables to be immutable. 
+This is bad practise as we are changing the value of `i` on each loop, we want such variables to be immutable.
 
 ```js
 function sum (numbers) {
@@ -39,4 +37,22 @@ sum([0, 1, 2, 3, 4]); //10
 ```
 
 This is good practice as no variables are altered.
+
+Use [Higher Order Functions](/terminology.md):
+
+```js
+function makeAdjectifier(adjective) {
+    return function (noun) {
+        return `${adjective} ${noun}`;
+    };
+}
+
+const holify = makeAdjectifier('holy');
+holify('JS'); // 'holy JS'
+holify('cow'); // 'holy cow'
+```
+
+HOF benefits =
+
+Composition: Allows us to put lots of small functions within larger functions.
 

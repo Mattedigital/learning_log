@@ -59,6 +59,12 @@ CRUD is an acronym for Create, Read, Update, Delete. A basic example being a tod
 
 ---
 
+#### Higher Order Functions
+
+Higher Order Functions are functions that has as its inputs or outputs other functions.
+
+---
+
 #### Method
 
 Objects can have their own functions. These are called methods.
