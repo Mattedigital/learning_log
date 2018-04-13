@@ -2,6 +2,7 @@
 
 * [Feather Icons](https://feathericons.com/)
 * [Semantic UI](https://semantic-ui.com/)
+* [Tabler](https://tabler.github.io/) \(a ui for dashboards\)
 
 #### Code Snippets
 
