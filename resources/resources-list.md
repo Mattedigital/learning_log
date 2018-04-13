@@ -1,3 +1,8 @@
+#### Frameworks/UI Kits
+
+* [Feather Icons](https://feathericons.com/)
+* [Semantic UI](https://semantic-ui.com/)
+
 #### Code Snippets
 
 * [JS Code Snippets](https://github.com/Chalarangelo/30-seconds-of-code#array-concatenation)
@@ -6,6 +11,7 @@
 #### Helpers
 
 * [Front-end Checklist](https://frontendchecklist.io/?ref=producthunt)
+* [General Project Guidelines](https://github.com/elsewhencode/project-guidelines#readme)
 
 #### Learning
 
