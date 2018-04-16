@@ -21,6 +21,7 @@
 * [Objects](mvc/objects.md)
 * [Arrays](mvc/arrays.md)
 * [Functional Programming](mvc/functional-programming.md)
+* [OOP Programming](mvc/oop-programming.md)
 
 ## Setup / Tools
 
