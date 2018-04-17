@@ -66,6 +66,7 @@ Composition: Allows us to put lots of small functions within larger functions.
 
 ```js
 var dwightSalary = (function() {
+    //private variable
     var salary = 60000;
     //private function (as shown by TypeError at the bottom)
     function changeBy(amount) {
