@@ -56,3 +56,11 @@ HOF benefits =
 
 Composition: Allows us to put lots of small functions within larger functions.
 
+
+
+**Closures:**
+
+https://medium.com/written-in-code/practical-uses-for-closures-c65640ae7304
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
