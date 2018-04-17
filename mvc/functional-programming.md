@@ -56,11 +56,44 @@ HOF benefits =
 
 Composition: Allows us to put lots of small functions within larger functions.
 
-
-
 **Closures:**
 
-https://medium.com/written-in-code/practical-uses-for-closures-c65640ae7304
+[https://medium.com/written-in-code/practical-uses-for-closures-c65640ae7304](https://medium.com/written-in-code/practical-uses-for-closures-c65640ae7304)
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+
+**Module Pattern:**
+
+```js
+var dwightSalary = (function() {
+    var salary = 60000;
+    //private function (as shown by TypeError at the bottom)
+    function changeBy(amount) {
+        salary += amount;
+    }
+    return {
+        //public functions, shown by there use below
+        raise: function() {
+            changeBy(5000);
+        },
+        lower: function() {
+            changeBy(-5000);
+        },
+        currentAmount: function() {
+            return salary;
+        }
+    }; 
+})();
+
+alert(dwightSalary.currentAmount()); // $60,000
+dwightSalary.raise();
+alert(dwightSalary.currentAmount()); // $65,000
+dwightSalary.lower();
+dwightSalary.lower();
+alert(dwightSalary.currentAmount()); // $55,000
+
+dwightSalary.changeBy(10000) // TypeError: undefined is not a function
+```
+
+
 
