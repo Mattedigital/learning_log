@@ -64,6 +64,42 @@ Composition: Allows us to put lots of small functions within larger functions.
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
+Sometimes closures show up when you don’t even notice it. You may have seen an example of what we call partial application. Like in the following code.
+
+in es6:
+
+```js
+let c = 4
+const addX = x => n => n + x
+const addThree = addX(3)
+let d = addThree(c)
+console.log('example partial application', d)
+```
+
+In case the arrow function throws you off, here is the equivalent.
+
+```js
+let c = 4
+function addX(x) {
+  return function(n) {
+     return n + x
+  }
+}
+const addThree = addX(3)
+let d = addThree(c)
+console.log('example partial application', d)
+```
+
+We declare a generic adder function`addX`that takes one parameter \(`x`\) and returns another function.
+
+The returned function also takes one parameter and adds it to the variable`x`.
+
+The variable`x`is part of the closure. When the variable`addThree`gets declared in the local context, it is assigned a function definition and a closure. The closure contains the variable`x`.
+
+So now when`addThree`is called and executed, it has access to the variable`x`from its closure and the variable`n`which was passed as an argument and is able to return the sum.
+
+In this example the console will print the number`7`.
+
 **Module Pattern:**
 
 ```js
