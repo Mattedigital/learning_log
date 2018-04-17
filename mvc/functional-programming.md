@@ -58,6 +58,8 @@ Composition: Allows us to put lots of small functions within larger functions.
 
 **Closures:**
 
+[https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
+
 [https://medium.com/written-in-code/practical-uses-for-closures-c65640ae7304](https://medium.com/written-in-code/practical-uses-for-closures-c65640ae7304)
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
