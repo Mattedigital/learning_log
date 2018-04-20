@@ -39,4 +39,5 @@
 * [Resources List](resources/resources-list.md)
 * [Sublime Plugins List](resources/sublime-plugins-list.md)
 * [Laws of UX](resources/laws-of-ux.md)
+* [ARIA attributes](resources/aria-attributes.md)
 
