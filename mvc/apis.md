@@ -173,9 +173,11 @@ window.onbeforeunload = function() {
 
 **Weather** - [http://openweathermap.org/api](http://openweathermap.org/api)
 
+**Weather** - [https://darksky.net/dev](https://darksky.net/dev)
+
 **Flickr **- [https://api.flickr.com/services/feeds/photos\_public.gne?tags=yellow&tagmode=all&format=json&nojsoncallback=?](https://api.flickr.com/services/feeds/photos_public.gne?tags=yellow&tagmode=all&format=json&nojsoncallback=?)
 
-\([https://www.flickr.com/services/feeds/docs/photos\_public/\](https://www.flickr.com/services/feeds/docs/photos_public/\)\)
+\([https://www.flickr.com/services/feeds/docs/photos\_public/\](https://www.flickr.com/services/feeds/docs/photos_public/%29\)
 
 **Movies** - [http://www.omdbapi.com/](http://www.omdbapi.com/)
 
@@ -183,7 +185,5 @@ window.onbeforeunload = function() {
 
 **Cinemas** - [http://www.cinelist.co.uk/](http://www.cinelist.co.uk/)
 
-**IP / Geolocation** - http://ip-api.com/json
-
-
+**IP / Geolocation** - [http://ip-api.com/json](http://ip-api.com/json)
 
