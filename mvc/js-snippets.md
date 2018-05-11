@@ -36,5 +36,63 @@ const minutes = now.getMinutes();
 const hours = now.getHours();
 ```
 
+**bind\(\), apply\(\), call\(\):**
+
+Use  `.bind()` when you want a function to later be called with a certain context, useful in events.
+
+Use `.call()` or `.apply()` when you want to invoke the function immediately, and modify the context.
+
+`call` attaches `this` into function and executes the function immediately:
+
+```js
+var person = {  
+  name: "James Smith",
+  hello: function(thing) {
+    console.log(this.name + " says hello " + thing);
+  }
+}
+
+person.hello("world");  // output: "James Smith says hello world"
+person.hello.call({ name: "Jim Smith" }, "world"); // output: "Jim Smith says hello world"
+```
+
+`bind`** **attaches `this`_** **_into function and it needs to be invoked separately like this:
+
+```js
+var person = {  
+  name: "James Smith",
+  hello: function(thing) {
+    console.log(this.name + " says hello " + thing);
+  }
+}
+
+person.hello("world");  // output: "James Smith says hello world"
+var helloFunc = person.hello.bind({ name: "Jim Smith" });
+helloFunc("world");  // output: Jim Smith says hello world"
+```
+
+or like this:
+
+```js
+...    
+var helloFunc = person.hello.bind({ name: "Jim Smith" }, "world");
+helloFunc();  // output: Jim Smith says hello world"
+```
+
+`apply`** **is similar to `call`** **except that it takes an array-like object instead of listing the arguments out one at a time:
+
+```js
+function personContainer() {
+  var person = {  
+     name: "James Smith",
+     hello: function() {
+       console.log(this.name + " says hello " + arguments[1]);
+     }
+  }
+  person.hello.apply(person, arguments);
+}
+personContainer("world", "mars"); // output: "James Smith says hello mars", note: arguments[0] = "world" , arguments[1] = "mars" 
+```
+
 
 
