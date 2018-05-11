@@ -27,5 +27,14 @@ item.dataset // {text: "hello", lang: "English", greeting: "true"}
 item.dataset.lang // English
 ```
 
+**Getting times & dates:**
+
+```js
+const now = new Date();
+const seconds = now.getSeconds();
+const minutes = now.getMinutes();
+const hours = now.getHours();
+```
+
 
 
