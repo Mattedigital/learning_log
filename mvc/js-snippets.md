@@ -56,7 +56,7 @@ person.hello("world");  // output: "James Smith says hello world"
 person.hello.call({ name: "Jim Smith" }, "world"); // output: "Jim Smith says hello world"
 ```
 
-`bind`** **attaches `this`_** **_into function and it needs to be invoked separately like this:
+`bind`** **attaches `this`\_** **\_into function and it needs to be invoked separately like this:
 
 ```js
 var person = {  
@@ -91,7 +91,33 @@ function personContainer() {
   }
   person.hello.apply(person, arguments);
 }
-personContainer("world", "mars"); // output: "James Smith says hello mars", note: arguments[0] = "world" , arguments[1] = "mars" 
+personContainer("world", "mars"); // output: "James Smith says hello mars", note: arguments[0] = "world" , arguments[1] = "mars"
+```
+
+**A note on Arrow Function syntax:**
+
+1. immediately after `=>` implies a `return`
+
+```js
+const a = (who) => "hello " + who + "!";
+```
+
+2. Wrapping multiline function in `()`  implies a return but allows you to break the function across multiple lines. 
+
+```js
+const b = (who) => (
+    "hello " + 
+    who + 
+    "!"
+);
+```
+
+3. Wrapping function in `{}` means you have to explicitly state `return` but will allow you to write multiple lines. Typically used when complex code is required with a single returned value at the end of it.
+
+```js
+const c = (who) => {
+  return "hello " + who + "!";
+}; 
 ```
 
 
