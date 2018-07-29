@@ -8,11 +8,9 @@ The **key components **of a React+Redux App are the following:
 2. Containers - A container wraps a React component and makes available to him the piece of state we need to pass to it as props inside the component.
 3. Actions \(and ActionCreators\)
 
-We must have a _”RootReducer” _that is the combination of all the reducers of our application \(our application state / _Redux Store_\). For that, _Redux _offers the _combineReducers _function.
+We must have a _”RootReducer” that is the combination of all the reducers of our application \(our application state / Redux Store_\). For that, Redux offers the combineReducers function.
 
 **When a component needs to know about a particular piece of state from our **_**Redux Store**_**, then it needs to be a container.**
-
-
 
 To connect a Component with the _Redux Store_, we need to import the connect function from react-redux library and pass it some parameters to be described.
 
