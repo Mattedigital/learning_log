@@ -16,13 +16,14 @@
 * [Altering the DOM](mvc/altering-the-dom.md)
 * [React](mvc/react.md)
 * [React Router](mvc/react-router.md)
+* [Redux](mvc/redux.md)
 * [API's](mvc/apis.md)
 * [JS Snippets](mvc/js-snippets.md)
 * [Objects](mvc/objects.md)
 * [Arrays](mvc/arrays.md)
 * [Functional Programming](mvc/functional-programming.md)
 * [OOP Programming](mvc/oop-programming.md)
-* [Plugins](mvc/plugins.md)
+* Redux
 
 ## Setup / Tools
 
