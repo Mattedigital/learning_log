@@ -19,8 +19,10 @@
 
 
 ```
+// import createStore
 import { createStore } from 'Redux';
 
+// create a reducer function
 const counter = (state = 0, action) => {
     switch (action.type) {
         case 'INCREMENT':
@@ -32,6 +34,7 @@ const counter = (state = 0, action) => {
     }
 }
 
+// create the store
 const store = createStore(counter);
 
 const render = () => {
