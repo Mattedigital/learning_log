@@ -14,3 +14,13 @@ We must have a _”RootReducer” that is the combination of all the reducers of
 
 To connect a Component with the _Redux Store_, we need to import the connect function from react-redux library and pass it some parameters to be described.
 
+
+
+Key principles of redux:
+
+1. The state is only ever read only.
+2. The state can only ever be changed by dispatching an action.
+3. To describe state mutations you have to write a function that takes the previous state of the app, the action being dispatched  & returns the next state of the app. This function needs to be a pure function.
+
+
+
