@@ -10,3 +10,43 @@
 
 
 
+**Most commonly used redux methods:**
+
+1. `.getState()` returns the current state of the redux store.
+2. `.dispatch({type: 'INCREMENT'})` allows you to dispatch actions to change the state of your application.
+3. `.subscribe()` allows you to register a callback for anytime a redux action has been dispatched.
+
+
+
+```
+import { createStore } from 'Redux';
+
+const counter = (state = 0, action) => {
+    switch (action.type) {
+        case 'INCREMENT':
+            return state + 1;
+        case 'DECREMENT':
+            return state - 1;
+        default:
+            return state;
+    }
+}
+
+const store = createStore(counter);
+
+const render = () => {
+    document.body.innerText = store.getState();
+}
+
+store.subscribe(render);
+render();
+    
+document.addEventListener('click', () => {
+    store.dispatch({type: 'INCREMENT'})
+});
+```
+
+
+
+
+
