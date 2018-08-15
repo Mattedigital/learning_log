@@ -59,9 +59,21 @@ CRUD is an acronym for Create, Read, Update, Delete. A basic example being a tod
 
 ---
 
+#### Declarative Programming
+
+Declarative Programming is like asking your friend to draw a landscape. You don’t care how they draw it, that’s up to them. See Imperative Programming for an alternate to this paradigm.
+
+---
+
 #### Higher Order Functions
 
 Higher Order Functions are functions that has as its inputs or outputs other functions.
+
+---
+
+#### Imperative Programming
+
+Imperative Programming is like your friend listening to Bob Ross tell them how to paint a landscape. While good ole Bob Ross isn’t exactly commanding, he is giving them step by step directions to get the desired result. See Declarative Programming for an alternate to this paradigm.
 
 ---
 
