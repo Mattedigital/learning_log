@@ -119,6 +119,11 @@ Node.js is an open-source, cross-platform JavaScript run-time environment that e
 
 ---
 
+#### NoSQL
+
+NoSQL, which stands for “Non-SQL”, is a newer set of database technologies that has emerged to handle the massive amounts of data that can be produced by large scale web applications. See also SQL.
+
+---
 
 #### Object
 
@@ -166,6 +171,13 @@ An HTTP response. A server returns an HTTP response message to the client. The r
 Part of a URL that identifies a resource. For example, in http://foo.com/products/id, “/products/id” is the route.
 
 ---
+
+#### SQL
+
+SQL stands for “Structured Query Language” provides a standard way of querying relational data sets. SQL databases store data in tables that are linked together via common IDs, typically integers. See also NoSQL.
+
+---
+
 
 #### Unopinionated frameworks
 
