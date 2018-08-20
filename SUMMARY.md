@@ -4,6 +4,11 @@
 
 * [Welcome](README.md)
 * [Terminology](terminology.md)
+* [Creditations](creditations.md)
+
+## Architecture
+
+* [Web Architecture 101](architecture/web-architecture-101.md)
 
 ## Workflow
 

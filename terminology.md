@@ -77,6 +77,12 @@ Higher Order Functions are functions that has as its inputs or outputs other fun
 
 ---
 
+#### Horizontal Scaling
+
+Horizontal scaling means that you scale by adding more machines into your pool of resources. Also see vertical scaling. In web development, you (almost) always want to scale horizontally because, to keep it simple, stuff breaks. Servers crash randomly. Networks degrade. Entire data centers occasionally go offline. Having more than one server allows you to plan for outages so that your application continues running. In other words, your app is “fault tolerant.”
+
+---
+
 #### Imperative Programming
 
 Imperative Programming is like your friend listening to Bob Ross tell them how to paint a landscape. While good ole Bob Ross isn’t exactly commanding, he is giving them step by step directions to get the desired result. See Declarative Programming for an alternate to this paradigm.
@@ -164,6 +170,12 @@ Part of a URL that identifies a resource. For example, in http://foo.com/product
 #### Unopinionated frameworks
 
 Unopinionated frameworks, by contrast, have far fewer restrictions on the best way to glue components together to achieve a goal, or even what components should be used. They make it easier for developers to use the most suitable tools to complete a particular task, albeit at the cost that you need to find those components yourself.
+
+---
+
+#### Vertical Scaling
+
+“vertical” scaling means that you scale by adding more power (e.g., CPU, RAM) to an existing machine. Also see Horizontal scaling.
 
 ---
 
