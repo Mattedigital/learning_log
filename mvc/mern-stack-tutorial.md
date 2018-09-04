@@ -130,7 +130,7 @@ const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Server runnning on port ${port}`));
 ```
 
-#### Express Router:
+#### Create Express routes:
 
 Create a folder at root directory named 'routes' & cd in:
 
@@ -150,7 +150,35 @@ Create files as follows:
 
 `touch posts.js` - so users can create posts.
 
+#### Require routes in server.js:
 
+Include these files in the server.js before the express app is declared:
+
+```js
+const users = require('./routes/api/users');
+const profile = require('./routes/api/profile');
+const posts = require('./routes/api/posts');
+
+const app = express();
+
+...
+```
+
+#### Include routes in server.js:
+
+Include routes above the port declaration:
+
+```js
+...
+
+app.use('/api/users', users);
+app.use('/api/profile', profile);
+app.use('/api/posts', posts);
+
+const port = process.env.PORT || 5000;
+
+...
+```
 
 
 
