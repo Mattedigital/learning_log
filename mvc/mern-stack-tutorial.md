@@ -94,7 +94,7 @@ const mongoose = require('mongoose');
 Require database config \(the keys file we just created\):
 
 ```js
-const db = require('./config').mongoURI;
+const db = require('./config/keys').mongoURI;
 ```
 
 Connect to MongoDB:
@@ -115,7 +115,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 //DB config
-const db = require('./config').mongoURI;
+const db = require('./config/keys').mongoURI;
 
 //Connect to MongoDB
 mongoose
@@ -129,6 +129,28 @@ const port = process.env.PORT || 5000;
 
 app.listen(port, () => console.log(`Server runnning on port ${port}`));
 ```
+
+#### Express Router:
+
+Create a folder at root directory named 'routes' & cd in:
+
+`mkdir routes`
+
+`cd routes`
+
+Create another directory named 'api':
+
+`mkdir api`
+
+Create files as follows:
+
+`touch users.js` - controls authentication, login etc.
+
+`touch profile.js` - to fetch user profile such as bio, location, website url.
+
+`touch posts.js` - so users can create posts.
+
+
 
 
 
