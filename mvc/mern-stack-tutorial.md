@@ -52,7 +52,5 @@ Then in the terminal:
 
 `node server`
 
-
-
-
+Navigate to http://localhost:5000/ & see the string 'Hello'.
 
