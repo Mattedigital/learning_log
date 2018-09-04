@@ -166,6 +166,12 @@ An HTTP response. A server returns an HTTP response message to the client. The r
 
 ---
 
+#### REST
+
+REST is an acronym for Representational State Transfer.
+
+---
+
 #### Route
 
 Part of a URL that identifies a resource. For example, in http://foo.com/products/id, “/products/id” is the route.
