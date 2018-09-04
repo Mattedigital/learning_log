@@ -29,6 +29,7 @@
 * [Functional Programming](mvc/functional-programming.md)
 * [OOP Programming](mvc/oop-programming.md)
 * Redux
+* [MERN stack tutorial](mvc/mern-stack-tutorial.md)
 
 ## Setup / Tools
 
