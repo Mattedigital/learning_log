@@ -1,55 +1,35 @@
 ### Redux
 
-[https://hackernoon.com/a-basic-react-redux-introductory-tutorial-adcc681eeb5e](https://hackernoon.com/a-basic-react-redux-introductory-tutorial-adcc681eeb5e)
+[react-redux-tutorial-beginners](https://www.valentinog.com/blog/react-redux-tutorial-beginners/)
 
-**Key principles of redux:**
+**Import Redux:**
 
-1. The state is only ever read only.
-2. The state can only ever be changed by dispatching an action. e.g INCREMENT, DECREMENT or ADD\_COMMENT
-3. To describe state mutations you have to write a function that takes the previous state of the app, the action being dispatched  & returns the next state of the app. This function needs to be a pure function. This function is called the reducer.
+In your React development environment and install Redux:
 
-
-
-**Most commonly used redux methods:**
-
-1. `.getState()` returns the current state of the redux store.
-2. `.dispatch({type: 'INCREMENT'})` allows you to dispatch actions to change the state of your application.
-3. `.subscribe()` allows you to register a callback for anytime a redux action has been dispatched.
-
-
-
-```
-// import createStore
-import { createStore } from 'Redux';
-
-// create a reducer function
-const counter = (state = 0, action) => {
-    switch (action.type) {
-        case 'INCREMENT':
-            return state + 1;
-        case 'DECREMENT':
-            return state - 1;
-        default:
-            return state;
-    }
-}
-
-// create the store
-const store = createStore(counter);
-
-const render = () => {
-    document.body.innerText = store.getState();
-}
-
-store.subscribe(render);
-render();
-    
-document.addEventListener('click', () => {
-    store.dispatch({type: 'INCREMENT'})
-});
+```js
+npm i redux --save-dev
 ```
 
+**Creating a store:**
 
+```js
+mkdir -p src/js/store
+```
 
+Create a new file named `index.js` in `src/js/store` and finally initialize the store:
 
+```js
+// src/js/store/index.js
+import { createStore } from "redux";
+import rootReducer from "../reducers/index";
+const store = createStore(rootReducer);
+export default store;
+```
+`createStore` is the function for creating the Redux store.
+
+`createStore` takes a reducer as the first argument, `rootReducer` in our case.
+
+You may also pass an initial state to `createStore`. But most of the times you don’t have to. Passing an initial state is useful for server side rendering (SSR). Anyway, the state comes from reducers.
+
+In Redux reducers produce the state. The state is not something you create by hand.
 

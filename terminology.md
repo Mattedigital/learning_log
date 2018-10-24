@@ -47,6 +47,13 @@ See the styles section on [BEM](/styles/bem.md "Link to BEM section") for greate
 
 ---
 
+#### Business Logic or Domain Logic
+
+Business logic or domain logic is the part of the program that encodes the real-world business rules that determine how data can be created, stored, and changed. It is contrasted with the remainder of the software that might be concerned with lower-level details of managing a database or displaying the user interface, system infrastructure, or generally connecting various parts of the program.
+
+---
+
+
 #### Controller
 
 The controller is what your application "does", it is the glue that binds the model and view together \(yet also acts as the insulation that keeps them apart \(separation of concerns\)\). The controller acts like a two-way adapter, translating user actions from the view into messages to the model and configuring the view with data from the model.
