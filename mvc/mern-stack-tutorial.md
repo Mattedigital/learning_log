@@ -303,3 +303,7 @@ app.use(bodyParser.json());
 
 This allows us to access req.body.whatever.
 
+
+
+GOT UP TO USER REGISTRATION & POSTMAN
+
