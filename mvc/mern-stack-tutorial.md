@@ -210,5 +210,48 @@ router.get('/test', (req, res) => res.json({msg: "Users works"}));
 ...
 ```
 
+#### Create User model & Schema:
+
+Create a new route directory titled models. Inside that directory create a file names User.js. Naming conventions for models are singular & capitalised. Hence User.js.
+
+We need to create a users properties. Here we have name, email, password, avatar & date. All are mandatory apart from date which has a default value of `Date.now`.
+
+```js
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+// Create Schema
+const UserSchema = new Scheam({
+  name: {
+    type: String,
+    required: true
+  },
+  email: {
+    type: String,
+    required: true
+  },
+  password: {
+    type: String,
+    required: true
+  },
+  avatar: {
+    type: String,
+    required: true
+  },
+  date: {
+    type: Date,
+    default: Date.now
+  }
+});
+```
+
+We then need to export this using User as a variable name. Passing 'user' as the name we'd like to use & the Schema we just created, UserSchema:
+
+```js
+...
+
+module.exports = User = mongoose.model('users', UserSchema);
+```
+
 
 
