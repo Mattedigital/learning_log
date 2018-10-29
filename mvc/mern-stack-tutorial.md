@@ -259,7 +259,47 @@ Download [Postman](https://www.getpostman.com/).
 
 You can now test `http://localhost:5000/api/users/test` using the GET request & get the message we applied earlier - Users works. Here's a screenshot:
 
-![](/assets/Screen Shot 2018-10-29 at 09.05.41.png)
+![](/assets/Screen Shot 2018-10-29 at 09.05.41.png)Now we wish to create a register route. In `/routes/api/users.js` require the users model.
 
+```js
+...
 
+// Load User model
+const User = require('../../models/User');
+
+...
+```
+
+Now we can create a new route that has access to this model & any mongoose methods:
+
+```js
+// @route   GET api/users/register
+// @desc    Register userr
+// @access  Public
+router.post('/register', (req, res) => {
+  User.findOne()
+});
+```
+
+Note findOne, this is a mongoose method. When we send data to a route, such as a form in our application, we access it through `req.body`.
+
+In order to do this we need to require `body-paser` in our `server.js` file & add some middleware. So in server.js this is what the top of your file should look like:
+
+```js
+const express = require('express');
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+
+const users = require('./routes/api/users');
+const profile = require('./routes/api/profile');
+const posts = require('./routes/api/posts');
+
+const app = express();
+
+// Body parser middleware
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+```
+
+This allows us to access req.body.whatever
 
