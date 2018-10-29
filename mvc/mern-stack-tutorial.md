@@ -79,7 +79,7 @@ Add the mLab user URI to your keys file:
 
 ```js
 module.exports = {
-  mongoURI: 'mongodb://matte:Artojoblw1@ds115625.mlab.com:15625/devconnector'
+  mongoURI: 'mongodb://yourusername:yourpassword@ds115625.mlab.com:15625/devconnector'
 }
 ```
 
