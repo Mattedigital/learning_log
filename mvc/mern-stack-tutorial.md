@@ -193,5 +193,5 @@ router.get('/test', (req, res) => res.json({msg: "Users works"}));
 module.exports = router;
 ```
 
-Do the same for profile.js & posts.js.
+Do the same for profile.js & posts.js but change the msg to correspond to the file name.
 
