@@ -182,14 +182,16 @@ const port = process.env.PORT || 5000;
 
 #### Update users.js route file:
 
-Include express & router, then add route:
+Include express & router, then add route & export:
 
 ```js
 const express =  require('express');
 const router = express.Router();
 
-router.get('/test', (req, res) => res.json());
+router.get('/test', (req, res) => res.json({msg: "Users works"}));
+
+module.exports = router;
 ```
 
-
+Do the same for profile.js & posts.js.
 
