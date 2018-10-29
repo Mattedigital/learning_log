@@ -253,5 +253,13 @@ We then need to export this using User as a variable name. Passing 'user' as the
 module.exports = User = mongoose.model('users', UserSchema);
 ```
 
+#### User Registration & Postman:
+
+Download [Postman](https://www.getpostman.com/).
+
+You can now test `http://localhost:5000/api/users/test` using the GET request & get the message we applied earlier - Users works. Here's a screenshot:
+
+![](/assets/Screen Shot 2018-10-29 at 09.05.41.png)
+
 
 
