@@ -301,5 +301,5 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 ```
 
-This allows us to access req.body.whatever
+This allows us to access req.body.whatever.
 
