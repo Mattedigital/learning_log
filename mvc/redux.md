@@ -117,6 +117,8 @@ export const addArticle = article => ({
 });
 ```
 
+**Refactoring our reducer:**
+
 
 
 
