@@ -25,11 +25,99 @@ import rootReducer from "../reducers/index";
 const store = createStore(rootReducer);
 export default store;
 ```
+
 `createStore` is the function for creating the Redux store.
 
 `createStore` takes a reducer as the first argument, `rootReducer` in our case.
 
-You may also pass an initial state to `createStore`. But most of the times you don’t have to. Passing an initial state is useful for server side rendering (SSR). Anyway, the state comes from reducers.
+You may also pass an initial state to `createStore`. But most of the times you don’t have to. Passing an initial state is useful for server side rendering \(SSR\). Anyway, the state comes from reducers.
 
 In Redux reducers produce the state. The state is not something you create by hand.
+
+**Reducers:**
+
+A reducer is a Javascript function, it takes two parameters: the current state & an action.
+
+In Redux state is immutable & cannot change in place.
+
+Create a root reducer:
+
+```js
+mkdir -p src/js/reducers
+```
+
+Then create a new file `index.js` in `src/js/reducers`. Add the following:
+
+```js
+const initialState = {
+ articles: []
+}
+
+const rootReducer = (state = initialState, action) => state;
+
+export default rootReducer;
+```
+
+This reducer does nothing but return the initial state. No actions take place.
+
+**Redux actions:**  
+We create a new store state by dispatching an action. Note we do not update the state, we copy the current state plus the new data, this is because the state is immutable.
+
+This is what an action looks like:
+
+```js
+{
+ type: 'ADD_ARTICLE',
+ payload: { name: 'Redux tutorial', id: 1 }
+}
+```
+
+It's just a js object! Every action requires a type property to describe how the state should change. The payload here is a new article which will be added to the current state when called.
+
+It is best practice to wrap every action within a function. These functions are called action creator.
+
+Let's put it all together.
+
+Create an actions directory
+
+```js
+mkdir -p src/js/actions
+```
+
+Create a new file named `index.js`:
+
+```js
+export const addArticle = article => ({
+ type: "ADD_ARTICLE",
+ payload: article
+});
+```
+
+The type property is just a string. This string is used to determine the next state. Use CONSTANTS to help avoid errors.
+
+Create a constants directory:
+
+```js
+mkdir -p src/js/constants
+```
+
+Create a new file named `action-types.js`:
+
+```js
+export const ADD_ARTICLE = "ADD_ARTICLE"
+```
+Now update `src/js/actions/index.js` to use action types:
+
+```js
+import { ADD_ARTICLE } from "../constants/action-types";
+
+export const addArticle = article => ({
+ type: ADD_ARTICLE,
+ payload: article
+});
+```
+
+
+
+
 

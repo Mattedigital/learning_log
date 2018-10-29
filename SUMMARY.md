@@ -28,7 +28,7 @@
 * [Arrays](mvc/arrays.md)
 * [Functional Programming](mvc/functional-programming.md)
 * [OOP Programming](mvc/oop-programming.md)
-* Redux
+* [Redux](mvc/redux.md)
 * [MERN stack tutorial](mvc/mern-stack-tutorial.md)
 
 ## Setup / Tools
