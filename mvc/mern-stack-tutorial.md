@@ -180,7 +180,7 @@ const port = process.env.PORT || 5000;
 ...
 ```
 
-#### Update users.js route file:
+#### Update users.js, profile.js & posts.js route files:
 
 Include express & router, then add route & export:
 
@@ -194,4 +194,21 @@ module.exports = router;
 ```
 
 Do the same for profile.js & posts.js but change the msg to correspond to the file name.
+
+Navigating to `localhost:5000/api/users/test` should give json with the above `msg` text included. You can check this with profile & post URL's too.
+
+Add comments for clarity, where the route goes, route description & who can access:
+
+```js
+...
+
+// @route   GET api/posts/test
+// @desc    Tests post route
+// @access  Public
+router.get('/test', (req, res) => res.json({msg: "Users works"}));
+
+...
+```
+
+
 
