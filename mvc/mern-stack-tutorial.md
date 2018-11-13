@@ -303,7 +303,13 @@ app.use(bodyParser.json());
 
 This allows us to access req.body.whatever.
 
-
-
 GOT UP TO USER REGISTRATION & POSTMAN
+
+
+
+Look into:
+
+middleware - definition, where in project should middleware be defined.
+
+jwt \(json web token\) vs google, fb, twitter oauth etc
 
