@@ -24,7 +24,7 @@ jsonwebtoken: used to actually generate the token
 
 body-parser: take in data through our request and do what we want with it
 
-bcryptjs: ?
+bcryptjs: hashing system for passwords
 
 validator: for validation
 
@@ -32,7 +32,7 @@ validator: for validation
 
 `npm i -D nodemon`
 
-Nodemon: ?
+Nodemon: Nodemon is a utility that will monitor for any changes in your source and automatically restart your server. Perfect for development. I
 
 #### Create server/entry point file:
 
