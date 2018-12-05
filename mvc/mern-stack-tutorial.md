@@ -34,7 +34,7 @@ validator: for validation
 
 Nodemon: Nodemon is a utility that will monitor for any changes in your source and automatically restart your server. Perfect for development. I
 
-#### Create server/entry point file:
+#### Create server/entry point file \(server.js\) at root:
 
 ```js
 const express = require('express');
@@ -73,7 +73,7 @@ Now run  `npm run server` & notice the ability to make changes which take effect
 
 `cd config`
 
-`touch keys`
+`touch keys.js`
 
 Add the mLab user URI to your keys file:
 
@@ -304,8 +304,6 @@ app.use(bodyParser.json());
 This allows us to access req.body.whatever.
 
 GOT UP TO USER REGISTRATION & POSTMAN
-
-
 
 Look into:
 
