@@ -14,9 +14,13 @@
 
 **Payload community accepted naming convention for the property that holds the actual data in a Redux action object.**
 
-**as soon as the store receives an action it triggers a reducer.** 
+**As soon as the store receives an action it triggers a reducer.**
 
-**the reducer returns the next state, this next state being defined by what action type needs to be processed.**
+**The reducer returns the next state, this next state being defined by what action type needs to be processed.**
+
+**Most important methods in Redux: getState \(access current state\), dispatch \(dispatches an action\), subscribe \(listening for state change\).**
+
+**The subscribe method accepts a callback that will fire whenever an action is dispatched.**
 
 [react-redux-tutorial-beginners](https://www.valentinog.com/blog/react-redux-tutorial-beginners/)
 
