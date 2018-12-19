@@ -1,5 +1,15 @@
 ### Redux
 
+
+
+Key takeaways:
+
+Reducers produce the state of our applications.
+
+
+
+
+
 [react-redux-tutorial-beginners](https://www.valentinog.com/blog/react-redux-tutorial-beginners/)
 
 **Import Redux:**
@@ -20,6 +30,7 @@ Create a new file named `index.js` in `src/js/store` and finally initialize the 
 
 ```js
 // src/js/store/index.js
+
 import { createStore } from "redux";
 import rootReducer from "../reducers/index";
 const store = createStore(rootReducer);
@@ -32,13 +43,11 @@ export default store;
 
 You may also pass an initial state to `createStore`. But most of the times you don’t have to. Passing an initial state is useful for server side rendering \(SSR\). Anyway, the state comes from reducers.
 
-In Redux reducers produce the state. The state is not something you create by hand.
+In Redux** reducers produce the state of the application**.
 
 **Reducers:**
 
-A reducer is a Javascript function, it takes two parameters: the current state & an action.
-
-In Redux state is immutable & cannot change in place.
+A reducer is a Javascript function. **Reducers take two parameters: the current state & an action.**
 
 Create a root reducer:
 
@@ -60,7 +69,7 @@ export default rootReducer;
 
 This reducer does nothing but return the initial state. No actions take place.
 
-**Redux actions:**  
+**Actions:**  
 We create a new store state by dispatching an action. Note we do not update the state, we copy the current state plus the new data, this is because the state is immutable.
 
 This is what an action looks like:
@@ -106,6 +115,7 @@ Create a new file named `action-types.js`:
 ```js
 export const ADD_ARTICLE = "ADD_ARTICLE"
 ```
+
 Now update `src/js/actions/index.js` to use action types:
 
 ```js
@@ -118,8 +128,4 @@ export const addArticle = article => ({
 ```
 
 **Refactoring our reducer:**
-
-
-
-
 
