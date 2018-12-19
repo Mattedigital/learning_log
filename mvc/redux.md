@@ -8,7 +8,15 @@
 
 **Reducers take two parameters: the current state & an action.**
 
+**The only way to change the state is through dispatching an action to the store.**
 
+**Every action needs a 'type' property.**
+
+**Payload community accepted naming convention for the property that holds the actual data in a Redux action object.**
+
+**as soon as the store receives an action it triggers a reducer.** 
+
+**the reducer returns the next state, this next state being defined by what action type needs to be processed.**
 
 [react-redux-tutorial-beginners](https://www.valentinog.com/blog/react-redux-tutorial-beginners/)
 
