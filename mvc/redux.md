@@ -1,12 +1,12 @@
 ### Redux
 
+**Key takeaways:**
 
+**createStore\(\) from redux is what is required to create/initiate a redux store.**
 
-Key takeaways:
+**Reducers produce the state of our application.**
 
-Reducers produce the state of our applications.
-
-
+**Reducers take two parameters: the current state & an action.**
 
 
 
