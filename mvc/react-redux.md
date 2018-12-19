@@ -1,0 +1,8 @@
+### React-Redux
+
+**key takeaways:**
+
+
+
+
+

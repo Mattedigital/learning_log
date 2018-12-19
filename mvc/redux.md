@@ -22,6 +22,8 @@
 
 **The subscribe method accepts a callback that will fire whenever an action is dispatched.**
 
+**Dispatching an action means notifying the store that we want to change the state.**
+
 [react-redux-tutorial-beginners](https://www.valentinog.com/blog/react-redux-tutorial-beginners/)
 
 **Import Redux:**

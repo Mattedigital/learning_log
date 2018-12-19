@@ -30,6 +30,7 @@
 * [OOP Programming](mvc/oop-programming.md)
 * [Redux](mvc/redux.md)
 * [MERN stack tutorial](mvc/mern-stack-tutorial.md)
+* [React-Redux](mvc/react-redux.md)
 
 ## Setup / Tools
 
