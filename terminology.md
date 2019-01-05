@@ -53,7 +53,6 @@ Business logic or domain logic is the part of the program that encodes the real-
 
 ---
 
-
 #### Controller
 
 The controller is what your application "does", it is the glue that binds the model and view together \(yet also acts as the insulation that keeps them apart \(separation of concerns\)\). The controller acts like a two-way adapter, translating user actions from the view into messages to the model and configuring the view with data from the model.
@@ -86,13 +85,23 @@ Higher Order Functions are functions that has as its inputs or outputs other fun
 
 #### Horizontal Scaling
 
-Horizontal scaling means that you scale by adding more machines into your pool of resources. Also see vertical scaling. In web development, you (almost) always want to scale horizontally because, to keep it simple, stuff breaks. Servers crash randomly. Networks degrade. Entire data centers occasionally go offline. Having more than one server allows you to plan for outages so that your application continues running. In other words, your app is “fault tolerant.”
+Horizontal scaling means that you scale by adding more machines into your pool of resources. Also see vertical scaling. In web development, you \(almost\) always want to scale horizontally because, to keep it simple, stuff breaks. Servers crash randomly. Networks degrade. Entire data centers occasionally go offline. Having more than one server allows you to plan for outages so that your application continues running. In other words, your app is “fault tolerant.”
 
 ---
 
 #### Imperative Programming
 
 Imperative Programming is like your friend listening to Bob Ross tell them how to paint a landscape. While good ole Bob Ross isn’t exactly commanding, he is giving them step by step directions to get the desired result. See Declarative Programming for an alternate to this paradigm.
+
+---
+
+#### Lightweight
+
+Lightweight programming languages are those which have the following features:
+
+* Syntax & feature use the least hardware & software features possible.
+* Use very little memory to execute.
+* Easily portable, minimal in size.
 
 ---
 
@@ -151,7 +160,7 @@ See the section on JS/Objects for a deeper insight into Objects.
 
 #### Opinionated frameworks
 
-Opinionated frameworks are those with opinions about the "right way" to handle any particular task. They often support rapid development in a particular domain (solving problems of a particular type) because the right way to do anything is usually well-understood and well-documented. However they can be less flexible at solving problems outside their main domain, and tend to offer fewer choices for what components and approaches they can use.
+Opinionated frameworks are those with opinions about the "right way" to handle any particular task. They often support rapid development in a particular domain \(solving problems of a particular type\) because the right way to do anything is usually well-understood and well-documented. However they can be less flexible at solving problems outside their main domain, and tend to offer fewer choices for what components and approaches they can use.
 
 ---
 
@@ -181,7 +190,7 @@ REST is an acronym for Representational State Transfer.
 
 #### Route
 
-Part of a URL that identifies a resource. For example, in http://foo.com/products/id, “/products/id” is the route.
+Part of a URL that identifies a resource. For example, in [http://foo.com/products/id](http://foo.com/products/id), “/products/id” is the route.
 
 ---
 
@@ -191,7 +200,6 @@ SQL stands for “Structured Query Language” provides a standard way of queryi
 
 ---
 
-
 #### Unopinionated frameworks
 
 Unopinionated frameworks, by contrast, have far fewer restrictions on the best way to glue components together to achieve a goal, or even what components should be used. They make it easier for developers to use the most suitable tools to complete a particular task, albeit at the cost that you need to find those components yourself.
@@ -200,7 +208,7 @@ Unopinionated frameworks, by contrast, have far fewer restrictions on the best w
 
 #### Vertical Scaling
 
-“vertical” scaling means that you scale by adding more power (e.g., CPU, RAM) to an existing machine. Also see Horizontal scaling.
+“vertical” scaling means that you scale by adding more power \(e.g., CPU, RAM\) to an existing machine. Also see Horizontal scaling.
 
 ---
 
