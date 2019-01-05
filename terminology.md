@@ -47,6 +47,12 @@ See the styles section on [BEM](/styles/bem.md "Link to BEM section") for greate
 
 ---
 
+#### Boolean
+
+Logical data type that can only be `true` or `false`.
+
+---
+
 #### Business Logic or Domain Logic
 
 Business logic or domain logic is the part of the program that encodes the real-world business rules that determine how data can be created, stored, and changed. It is contrasted with the remainder of the software that might be concerned with lower-level details of managing a database or displaying the user interface, system infrastructure, or generally connecting various parts of the program.
@@ -71,6 +77,12 @@ CRUD is an acronym for Create, Read, Update, Delete. A basic example being a tod
 
 ---
 
+#### Data Types
+
+See `Number`, `Boolean`, `String`, `Undefined`, `Null`. As of ES6 `Symbol` is also a data type.
+
+---
+
 #### Declarative Programming
 
 Declarative Programming is like asking your friend to draw a landscape. You don’t care how they draw it, that’s up to them. See Imperative Programming for an alternate to this paradigm.
@@ -80,6 +92,12 @@ Declarative Programming is like asking your friend to draw a landscape. You don�
 #### Express
 
 A fast, un-opinionated, minimalist web framework for Node.js applications. Express.js basically helps you manage everything, from routes, to handling requests and views. The use of middleware is a prominent feature of Express.
+
+---
+
+#### Falsy
+
+Falsy values are the following: `undefined`, `null`,  `0`, `''`, `NaN`.  These values will be evaluated to false in an if/else condition.
 
 ---
 
@@ -147,6 +165,18 @@ NoSQL, which stands for “Non-SQL”, is a newer set of database technologies t
 
 ---
 
+#### Null
+
+Also means 'non-existent'.
+
+---
+
+#### Number
+
+Floating point numbers, for decimals & integers.
+
+---
+
 #### Object
 
 Objects are like variables but can contain many key value pairs:
@@ -200,9 +230,21 @@ Part of a URL that identifies a resource. For example, in [http://foo.com/produc
 
 ---
 
+#### String
+
+Sequence of characters used for text.
+
+---
+
 #### SQL
 
 SQL stands for “Structured Query Language” provides a standard way of querying relational data sets. SQL databases store data in tables that are linked together via common IDs, typically integers. See also NoSQL.
+
+---
+
+#### Undefined
+
+Datatype of a variable that does not have a value yet.
 
 ---
 
