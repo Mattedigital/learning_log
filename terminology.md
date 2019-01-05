@@ -59,6 +59,12 @@ The controller is what your application "does", it is the glue that binds the mo
 
 ---
 
+#### Cross Platform
+
+Ability of a programming language \(such as JavasScript\) that enables programmers to develop software for several competing platforms by writing a program only once. Cross-platform software can run on most or all systems with little or no modification. Also called multi-platform.
+
+---
+
 #### CRUD
 
 CRUD is an acronym for Create, Read, Update, Delete. A basic example being a todo app where you can add, view, edit & delete todo list items. Often refers to back-end storage solutions.
