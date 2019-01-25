@@ -31,7 +31,7 @@
 * [Redux](mvc/redux.md)
 * [MERN stack tutorial](mvc/mern-stack-tutorial.md)
 * [React-Redux](mvc/react-redux.md)
-* Memory recovery in JS
+* [Memory recovery in JS](mvc/memory-recovery-in-js.md)
 
 ## Setup / Tools
 
