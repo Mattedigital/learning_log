@@ -1,28 +1,30 @@
 ### Redux
 
+Here's the Redux cycle:
+![](/assets/Screenshot 2019-06-21 at 13.26.14.png)
+
+Now think of this like a Insurance Brokerage:
+![](/assets/Screenshot 2019-06-21 at 13.54.53.png)
+
+Another way of remembering "reducers" is that "reducers produce" the state. Remember Reduce -> Produce.
+
+Other things to remember is that redux-thunk is for async state management. It is therefore common (in React) to have react, react-redux & redux-thunk. react-redux is redux's react 'version' whilst redux-thunk helps to consume API's.
+
+`connect()` allows you too.....
+
 **Key takeaways:**
 
 **createStore\(\) from redux is what is required to create/initiate a redux store.**
 
-**Reducers produce the state of our application.**
-
 **Reducers take two parameters: the current state & an action.**
 
-**The only way to change the state is through dispatching an action to the store.**
-
-**Every action needs a 'type' property.**
-
-**Payload community accepted naming convention for the property that holds the actual data in a Redux action object.**
+**Every action needs a 'type' property. It also takes a 'payload' property which holds the data to change in a Redux action.**
 
 **As soon as the store receives an action it triggers a reducer.**
 
-**The reducer returns the next state, this next state being defined by what action type needs to be processed.**
-
-**Most important methods in Redux: getState \(access current state\), dispatch \(dispatches an action\), subscribe \(listening for state change\).**
-
-**The subscribe method accepts a callback that will fire whenever an action is dispatched.**
-
 **Dispatching an action means notifying the store that we want to change the state.**
+
+**The reducer returns the next state, this next state being defined by what action type needs to be processed.**
 
 [react-redux-tutorial-beginners](https://www.valentinog.com/blog/react-redux-tutorial-beginners/)
 
