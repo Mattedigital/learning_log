@@ -10,3 +10,7 @@
 
 `sudo` - overriding admin command
 
+`pico` - edit a file in terminal
+
+`nano` - edit a file in terminal
+
