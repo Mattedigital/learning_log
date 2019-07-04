@@ -1,8 +1,4 @@
-### React-Redux
+# React-Redux
 
 **key takeaways:**
-
-
-
-
 

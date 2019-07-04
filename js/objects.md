@@ -1,8 +1,8 @@
-#### Objects
+# Objects
 
 Create `objects` as a variable:
 
-```js
+```javascript
 const bike = {
     seats: 1,
     wheels: 2,
@@ -12,7 +12,7 @@ const bike = {
 
 Through `constructor` functions:
 
-```js
+```javascript
 const bike = function() {
     this.seats = 1;
     this.wheels = 2;
@@ -22,7 +22,7 @@ const bike = function() {
 
 Adding `parameters` to our `constructor`:
 
-```js
+```javascript
 const bike = function(seats, wheels, color) {
     this.seats = seats;
     this.wheels = wheels;
@@ -32,9 +32,9 @@ const bike = function(seats, wheels, color) {
 const tricycle = new bike(1, 3, 'blue');
 ```
 
-To use a `constructor`  function we call it with the `new` keyword in front of it. You can then add to the object as the example shows:
+To use a `constructor` function we call it with the `new` keyword in front of it. You can then add to the object as the example shows:
 
-```js
+```javascript
 const bike = function() {
     this.seats = 1;
     this.wheels = 2;
@@ -46,9 +46,9 @@ const motorBike = new bike();
 motorBike.engine = 1;
 ```
 
-Example of using variables instead of `this` allows us to create private `methods` & `properties`: 
+Example of using variables instead of `this` allows us to create private `methods` & `properties`:
 
-```js
+```javascript
 const bike = function() {
 
   // this is a private variable
@@ -67,6 +67,4 @@ const bike = function() {
 
 const tandem = new bike();
 ```
-
-
 

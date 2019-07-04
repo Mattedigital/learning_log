@@ -1,14 +1,12 @@
-### Redux
+# Redux
 
-Here's the Redux cycle:
-![](/assets/Screenshot 2019-06-21 at 13.26.14.png)
+Here's the Redux cycle: ![](../.gitbook/assets/screenshot-2019-06-21-at-13.26.14.png)
 
-Now think of this like a Insurance Brokerage:
-![](/assets/Screenshot 2019-06-21 at 13.54.53.png)
+Now think of this like a Insurance Brokerage: ![](../.gitbook/assets/screenshot-2019-06-21-at-13.54.53.png)
 
-Another way of remembering "reducers" is that "reducers produce" the state. Remember Reduce -> Produce.
+Another way of remembering "reducers" is that "reducers produce" the state. Remember Reduce -&gt; Produce.
 
-Other things to remember is that redux-thunk is for async state management. It is therefore common (in React) to have react, react-redux & redux-thunk. react-redux is redux's react 'version' whilst redux-thunk helps to consume API's.
+Other things to remember is that redux-thunk is for async state management. It is therefore common \(in React\) to have react, react-redux & redux-thunk. react-redux is redux's react 'version' whilst redux-thunk helps to consume API's.
 
 `connect()` allows you too.....
 
@@ -32,19 +30,19 @@ Other things to remember is that redux-thunk is for async state management. It i
 
 In your React development environment and install Redux:
 
-```js
+```javascript
 npm i redux --save-dev
 ```
 
 **Creating a store:**
 
-```js
+```javascript
 mkdir -p src/js/store
 ```
 
 Create a new file named `index.js` in `src/js/store` and finally initialize the store:
 
-```js
+```javascript
 // src/js/store/index.js
 
 import { createStore } from "redux";
@@ -59,7 +57,7 @@ export default store;
 
 You may also pass an initial state to `createStore`. But most of the times you don’t have to. Passing an initial state is useful for server side rendering \(SSR\). Anyway, the state comes from reducers.
 
-In Redux** reducers produce the state of the application**.
+In Redux **reducers produce the state of the application**.
 
 **Reducers:**
 
@@ -67,13 +65,13 @@ A reducer is a Javascript function. **Reducers take two parameters: the current 
 
 Create a root reducer:
 
-```js
+```javascript
 mkdir -p src/js/reducers
 ```
 
 Then create a new file `index.js` in `src/js/reducers`. Add the following:
 
-```js
+```javascript
 const initialState = {
  articles: []
 }
@@ -90,7 +88,7 @@ We create a new store state by dispatching an action. Note we do not update the 
 
 This is what an action looks like:
 
-```js
+```javascript
 {
  type: 'ADD_ARTICLE',
  payload: { name: 'Redux tutorial', id: 1 }
@@ -105,13 +103,13 @@ Let's put it all together.
 
 Create an actions directory
 
-```js
+```javascript
 mkdir -p src/js/actions
 ```
 
 Create a new file named `index.js`:
 
-```js
+```javascript
 export const addArticle = article => ({
  type: "ADD_ARTICLE",
  payload: article
@@ -122,19 +120,19 @@ The type property is just a string. This string is used to determine the next st
 
 Create a constants directory:
 
-```js
+```javascript
 mkdir -p src/js/constants
 ```
 
 Create a new file named `action-types.js`:
 
-```js
+```javascript
 export const ADD_ARTICLE = "ADD_ARTICLE"
 ```
 
 Now update `src/js/actions/index.js` to use action types:
 
-```js
+```javascript
 import { ADD_ARTICLE } from "../constants/action-types";
 
 export const addArticle = article => ({

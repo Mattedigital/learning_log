@@ -1,3 +1,5 @@
+# Start from scratch
+
 **Homebrew** - [https://brew.sh/](https://brew.sh/) - use to install global packages whenever possible - its a godsend.
 
 **SourceTree** - UI for source control.
@@ -17,6 +19,4 @@
 * grammerly
 * React Dev Tools
 * Redux Dev Tools
-
-
 

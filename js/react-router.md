@@ -1,3 +1,5 @@
+# React Router
+
 Gotchas:
 
 Easiest / Less frustrating approach:
@@ -14,7 +16,7 @@ API fetched data should always be in the most parent component. In the example o
 
 Example Routes in App.js:
 
-```js
+```javascript
 const App = ({ match }) => (
   <div className='container'>
     <h1>Matte Fletcher | Boilerplate React Build</h1>
@@ -32,15 +34,13 @@ const App = ({ match }) => (
 
 BrowserRouter required for history \(even if not declared like a component would be\).
 
-```js
+```javascript
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 ```
 
 {match.url} is only needed for nested routes ie /tacos/chicken & tacos/beef \(where beef & chicken are nested\). not needed if not nested ie /beef, /chicken.
 
-```js
+```javascript
 <Route path={`${match.url}/:id`} component={GalleryItemView} />
 ```
-
-
 

@@ -1,1 +1,0 @@
-https://dzone.com/articles/eradicating-memory-leaks-in-javascript

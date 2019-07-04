@@ -1,6 +1,6 @@
+# Sublime Plugins List
+
 Sublime Plugins
-
-
 
 [F](https://packagecontrol.io/packages/A%20File%20Icon)[ile icon](https://packagecontrol.io/packages/A%20File%20Icon)
 

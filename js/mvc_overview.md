@@ -1,8 +1,6 @@
-# MVC Explained {#mvc}
+# MVC Explained
 
----
-
-#### The MVC Pattern
+## The MVC Pattern
 
 **Model:** Structures your data in a reliable form and prepares it based on controller’s instructions. Domain Logic should go here \(An example of domain logic: in an accounting application domain rules would be rules regarding accounts, postings & taxation. The data as such.\)
 
@@ -10,11 +8,9 @@
 
 **Controller:** Takes in user commands, sends commands to the model for data updates, sends instructions to view to update interface. Application logic should go here \(An example of application logic: continuing with the Models accounting application example - CSV import/export could be relevant, but the rules of CSV import/export has nothing to do with the actual domain. This kind of logic is application logic.\)
 
-![](/assets/MVC_visual copy.png)
+![](../.gitbook/assets/mvc_visual-copy.png)
 
-#### 
-
-#### MVC analogy: Ordering drinks at a bar.
+## MVC analogy: Ordering drinks at a bar.
 
 You \(the **user**\), order an Old Fashioned at a bar \(**user request**\).
 
@@ -33,7 +29,7 @@ When the bartender’s brain \(the **controller**\) hears the word “Old Fashio
 
 The final product is the drink \(the **view**\), which you \(the **user**\) consume.
 
-#### Consideration points
+## Consideration points
 
 Want another drink? Shouting at an empty glass \(the **view**\) will do nothing. You need to speak to the barman \(the **controller**\).
 
@@ -41,7 +37,7 @@ The time spent between the bartender hearing your request and starting to create
 
 You want to keep as much of your logic within the model as possible as opposed to within the view. i.e. making the drinks behind the bar is preferable to mixing it within the customer’s mouth.
 
-#### Tying this into web development {#tying-into-webdevelope}
+## Tying this into web development <a id="tying-into-webdevelope"></a>
 
 The user makes a request along a route, let’s say /home.
 
@@ -51,5 +47,5 @@ The model carries out the logic, pulls from a database and sends back a consiste
 
 The controller then passes this data to the view to update the user interface.
 
-_All credit should go to the original article found here: _[_https://medium.freecodecamp.org/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053_](https://medium.freecodecamp.org/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053)
+_All credit should go to the original article found here:_ [_https://medium.freecodecamp.org/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053_](https://medium.freecodecamp.org/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053)
 

@@ -1,26 +1,28 @@
+# JS Snippets
+
 **Strip HTML tags in Javascript:**
 
 src: [https://css-tricks.com/snippets/javascript/strip-html-tags-in-javascript/](https://css-tricks.com/snippets/javascript/strip-html-tags-in-javascript/)
 
-```js
+```javascript
  const StrippedString = OriginalString.replace(/(<([^>]+)>)/ig,"");
 ```
 
 **See if element has a specific class:**
 
-```js
+```javascript
 element.classList.contains(class);
 ```
 
 **Change CSS Variables value:**
 
-```js
+```javascript
 document.documentElement.style.setProperty('--variableName', newValue);
 ```
 
 **Get all data attributes on a specific element:**
 
-```js
+```javascript
 //<div data-text="hello" data-lang="English" data-greeting="true">Hello</div>
 const item = document.querySelector('div');
 item.dataset // {text: "hello", lang: "English", greeting: "true"}
@@ -29,7 +31,7 @@ item.dataset.lang // English
 
 **Getting times & dates:**
 
-```js
+```javascript
 const now = new Date();
 const seconds = now.getSeconds();
 const minutes = now.getMinutes();
@@ -38,13 +40,13 @@ const hours = now.getHours();
 
 **bind\(\), apply\(\), call\(\):**
 
-Use  `.bind()` when you want a function to later be called with a certain context, useful in events.
+Use `.bind()` when you want a function to later be called with a certain context, useful in events.
 
 Use `.call()` or `.apply()` when you want to invoke the function immediately, and modify the context.
 
 `call` attaches `this` into function and executes the function immediately:
 
-```js
+```javascript
 var person = {  
   name: "James Smith",
   hello: function(thing) {
@@ -56,9 +58,9 @@ person.hello("world");  // output: "James Smith says hello world"
 person.hello.call({ name: "Jim Smith" }, "world"); // output: "Jim Smith says hello world"
 ```
 
-`bind`** **attaches `this`\_** **\_into function and it needs to be invoked separately like this:
+`bind` ****attaches `this`\_ ****\_into function and it needs to be invoked separately like this:
 
-```js
+```javascript
 var person = {  
   name: "James Smith",
   hello: function(thing) {
@@ -73,15 +75,15 @@ helloFunc("world");  // output: Jim Smith says hello world"
 
 or like this:
 
-```js
+```javascript
 ...    
 var helloFunc = person.hello.bind({ name: "Jim Smith" }, "world");
 helloFunc();  // output: Jim Smith says hello world"
 ```
 
-`apply`** **is similar to `call`** **except that it takes an array-like object instead of listing the arguments out one at a time:
+`apply` ****is similar to `call` ****except that it takes an array-like object instead of listing the arguments out one at a time:
 
-```js
+```javascript
 function personContainer() {
   var person = {  
      name: "James Smith",
@@ -98,13 +100,13 @@ personContainer("world", "mars"); // output: "James Smith says hello mars", note
 
 1. immediately after `=>` implies a `return`
 
-```js
+```javascript
 const a = (who) => "hello " + who + "!";
 ```
 
-2. Wrapping multiline function in `()`  implies a return but allows you to break the function across multiple lines. 
+1. Wrapping multiline function in `()`  implies a return but allows you to break the function across multiple lines. 
 
-```js
+```javascript
 const b = (who) => (
     "hello " + 
     who + 
@@ -112,13 +114,11 @@ const b = (who) => (
 );
 ```
 
-3. Wrapping function in `{}` means you have to explicitly state `return` but will allow you to write multiple lines. Typically used when complex code is required with a single returned value at the end of it.
+1. Wrapping function in `{}` means you have to explicitly state `return` but will allow you to write multiple lines. Typically used when complex code is required with a single returned value at the end of it.
 
-```js
+```javascript
 const c = (who) => {
   return "hello " + who + "!";
-}; 
+};
 ```
-
-
 

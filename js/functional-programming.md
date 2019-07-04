@@ -1,3 +1,5 @@
+# Functional Programming
+
 [https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming](https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming)
 
 Use Pure functions.
@@ -12,7 +14,7 @@ Do not Loop. Use map, reduce, filter.
 
 Iteration example: BAD
 
-```js
+```javascript
 function sum (numbers) {
     let total = 0;
     for (i = 0; i < numbers.length; i++) {
@@ -25,7 +27,7 @@ sum([0, 1, 2, 3, 4]); //10
 
 This is bad practise as we are changing the value of `i` on each loop, we want such variables to be immutable.
 
-```js
+```javascript
 function sum (numbers) {
     if (numbers.length === 1) {
         return numbers[0];
@@ -38,9 +40,9 @@ sum([0, 1, 2, 3, 4]); //10
 
 This is good practice as no variables are altered.
 
-Use [Higher Order Functions](/terminology.md):
+Use [Higher Order Functions](../overview/terminology.md):
 
-```js
+```javascript
 function makeAdjectifier(adjective) {
     return function (noun) {
         return `${adjective} ${noun}`;
@@ -68,7 +70,7 @@ Sometimes closures show up when you don’t even notice it. You may have seen an
 
 in es6:
 
-```js
+```javascript
 let c = 4
 const addX = x => n => n + x
 const addThree = addX(3)
@@ -78,7 +80,7 @@ console.log('example partial application', d)
 
 In case the arrow function throws you off, here is the equivalent.
 
-```js
+```javascript
 let c = 4
 function addX(x) {
   return function(n) {
@@ -102,7 +104,7 @@ In this example the console will print the number`7`.
 
 **Module Pattern:**
 
-```js
+```javascript
 var dwightSalary = (function() {
     //private variable
     var salary = 60000;
@@ -133,6 +135,4 @@ alert(dwightSalary.currentAmount()); // $55,000
 
 dwightSalary.changeBy(10000) // TypeError: undefined is not a function
 ```
-
-
 

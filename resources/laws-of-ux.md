@@ -1,8 +1,6 @@
 # Laws of UX
 
----
-
-**Fitts's Law:** The time to acquire a target is a function of the distance to and size of the target. 
+**Fitts's Law:** The time to acquire a target is a function of the distance to and size of the target.
 
 **Hick's Law:** The time it takes to make a decision increases with the number and complexity of choices.
 
@@ -25,6 +23,4 @@
 **Von Restorff Effect:** The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered.
 
 **Zeigarnik Effect:** People remember uncompleted or interrupted tasks better than completed tasks.
-
-
 

@@ -1,6 +1,4 @@
-#### React
-
-
+# React
 
 **Pure Functions**
 
@@ -8,7 +6,7 @@ Stateless functions should always be pure functions. Pure functions are normal J
 
 Example:
 
-```js
+```javascript
 import React from ‘react’;
 
 const HelloWorld = ({name}) => (
@@ -18,13 +16,11 @@ const HelloWorld = ({name}) => (
 export default HelloWorld;
 ```
 
-
-
 **Proptypes**
 
 Always declare Proptypes, this will aid debugging if wrong proptype is passed to component. It equally useful for future development to understand what props are required & what type of props should be passed in.
 
-```js
+```javascript
 import PropTypes from 'prop-types';
 
 const ComponentName = props => (
@@ -35,6 +31,4 @@ ComponentName.propTypes = {
     searchTerm: PropTypes.string.isRequired,
 };
 ```
-
-
 

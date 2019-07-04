@@ -1,10 +1,12 @@
-# Summary
+# Table of contents
+
+* [Introduction](README.md)
 
 ## Overview
 
-* [Welcome](README.md)
-* [Terminology](terminology.md)
-* [Creditations](creditations.md)
+* [Welcome](overview/readme.md)
+* [Terminology](overview/terminology.md)
+* [Creditations](overview/creditations.md)
 
 ## Architecture
 
@@ -16,21 +18,21 @@
 
 ## JS
 
-* [Overview](mvc/mvc-overview.md)
-* [MVC Explained](mvc/mvc_overview.md)
-* [Altering the DOM](mvc/altering-the-dom.md)
-* [React](mvc/react.md)
-* [React Router](mvc/react-router.md)
-* [Redux](mvc/redux.md)
-* [API's](mvc/apis.md)
-* [JS Snippets](mvc/js-snippets.md)
-* [Objects](mvc/objects.md)
-* [Arrays](mvc/arrays.md)
-* [Functional Programming](mvc/functional-programming.md)
-* [OOP Programming](mvc/oop-programming.md)
-* [Redux](mvc/redux.md)
-* [React-Redux](mvc/react-redux.md)
-* [Memory recovery in JS](mvc/memory-recovery-in-js.md)
+* [Overview](js/mvc-overview.md)
+* [MVC Explained](js/mvc_overview.md)
+* [Altering the DOM](js/altering-the-dom.md)
+* [React](js/react.md)
+* [React Router](js/react-router.md)
+* [Redux](js/redux.md)
+* [API's](js/apis.md)
+* [JS Snippets](js/js-snippets.md)
+* [Objects](js/objects.md)
+* [Arrays](js/arrays.md)
+* [Functional Programming](js/functional-programming.md)
+* [OOP Programming](js/oop-programming.md)
+* [Redux](js/redux-1.md)
+* [React-Redux](js/react-redux.md)
+* [Memory recovery in JS](js/memory-recovery-in-js.md)
 
 ## Setup / Tools
 
@@ -41,7 +43,7 @@
 
 ## CSS
 
-* [BEM](styles/bem.md)
+* [BEM](css/bem.md)
 
 ## Resources
 
