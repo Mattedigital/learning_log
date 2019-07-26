@@ -167,6 +167,8 @@ window.onbeforeunload = function() {
 
 **Weather** - [https://darksky.net/dev](https://darksky.net/dev)
 
+**Deck of Cards:** [http://deckofcardsapi.com/](http://deckofcardsapi.com/)
+
 **Flickr** - [https://api.flickr.com/services/feeds/photos\_public.gne?tags=yellow&tagmode=all&format=json&nojsoncallback=?](https://api.flickr.com/services/feeds/photos_public.gne?tags=yellow&tagmode=all&format=json&nojsoncallback=?)
 
 \([https://www.flickr.com/services/feeds/docs/photos\_public/\](https://www.flickr.com/services/feeds/docs/photos_public/%29\)
