@@ -161,6 +161,8 @@ window.onbeforeunload = function() {
 
 **Design Quotes** - [http://quotesondesign.com/api-v4-0/](http://quotesondesign.com/api-v4-0/)
 
+**Developer Zen Quotes** - [https://api.github.com/zen](https://api.github.com/zen)
+
 **Weather** - [http://openweathermap.org/api](http://openweathermap.org/api)
 
 **Weather** - [https://darksky.net/dev](https://darksky.net/dev)
