@@ -175,6 +175,8 @@ window.onbeforeunload = function() {
 
 **IP / Geolocation** - [http://ip-api.com/json](http://ip-api.com/json)
 
+**Jokes** - [https://icanhazdadjoke.com/](https://icanhazdadjoke.com/)
+
 **Movies** - [http://www.omdbapi.com/](http://www.omdbapi.com/)
 
 **Movies** - [https://www.themoviedb.org/documentation/api](https://www.themoviedb.org/documentation/api)
