@@ -195,3 +195,5 @@ window.onbeforeunload = function() {
 
 **Weather** - [https://darksky.net/dev](https://darksky.net/dev)
 
+**Character sprite generator** \(not an API\) - [http://gaurav.munjal.us/Universal-LPC-Spritesheet-Character-Generator/](http://gaurav.munjal.us/Universal-LPC-Spritesheet-Character-Generator/)
+
