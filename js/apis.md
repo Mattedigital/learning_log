@@ -161,13 +161,19 @@ window.onbeforeunload = function() {
 
 **Cinemas** - [http://www.cinelist.co.uk/](http://www.cinelist.co.uk/)
 
+**Cocktail:** [https://www.thecocktaildb.com/api.php?ref=apilist.fun](https://www.thecocktaildb.com/api.php?ref=apilist.fun)
+
 **Cooking / Food:** [https://www.food2fork.com/about/api](https://www.food2fork.com/about/api)
+
+**Cooking / Food:** [https://spoonacular.com/food-api](https://spoonacular.com/food-api)
 
 **Deck of Cards:** [http://deckofcardsapi.com/](http://deckofcardsapi.com/)
 
 **Design Quotes** - [http://quotesondesign.com/api-v4-0/](http://quotesondesign.com/api-v4-0/)
 
 **Developer Zen Quotes** - [https://api.github.com/zen](https://api.github.com/zen)
+
+**Dog** - [https://dog.ceo/dog-api](https://dog.ceo/dog-api)
 
 **Flickr** - [https://api.flickr.com/services/feeds/photos\_public.gne?tags=yellow&tagmode=all&format=json&nojsoncallback=?](https://api.flickr.com/services/feeds/photos_public.gne?tags=yellow&tagmode=all&format=json&nojsoncallback=?)
 
@@ -184,6 +190,8 @@ window.onbeforeunload = function() {
 **Photos / Images -** [https://unsplash.com/developers](https://unsplash.com/developers)
 
 **Photos / Images -** [https://source.unsplash.com/](https://source.unsplash.com/)
+
+**Pokemon -** [https://pokeapi.co/](https://pokeapi.co/)
 
 **Pokemon png's** **\(lofi\)** - [https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png)
 
